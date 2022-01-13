@@ -1,0 +1,28 @@
+﻿using Abp.Dependency;
+
+namespace fengye.bookList.Tests.DependencyInjection
+{
+    public static class ServiceCollectionRegistrar
+    {
+        public static void Register(IIocManager iocManager)
+        {
+            //var services = new ServiceCollection();
+
+            //IdentityRegistrar.Register(services);
+
+            //services.AddEntityFrameworkInMemoryDatabase();
+
+            //var serviceProvider = WindsorRegistrationHelper.CreateServiceProvider(iocManager.IocContainer, services);
+
+            //var builder = new DbContextOptionsBuilder<bookListDbContext>();
+            //builder.UseInMemoryDatabase(Guid.NewGuid().ToString()).UseInternalServiceProvider(serviceProvider);
+
+            //iocManager.IocContainer.Register(
+            //    Component
+            //        .For<DbContextOptions<bookListDbContext>>()
+            //        .Instance(builder.Options)
+            //        .LifestyleSingleton()
+            //);
+        }
+    }
+}
